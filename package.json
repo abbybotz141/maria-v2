@@ -1,0 +1,18 @@
+{
+  "name": "maria-v2",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot - Maria-V2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.17",
+    "pino": "^8.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
